@@ -1,4 +1,4 @@
-baseURL = "https://edmundwritesmediumform.com"
+baseURL = "https://edwritesmediumform.com"
 disqusShortname = ""
 enableGitInfo = true
 enableRobotsTXT = true
@@ -7,10 +7,10 @@ languageCode = "en"
 paginate = 5
 rssLimit = 10
 theme = "hugo-texify3"
-title = "TeXify3"
+title = "Ed Blog"
 
 [author]
-name = "Michael Neuper"
+name = "Edmund"
 email = "michael@michaelneuper.com"
 
 [taxonomies]
