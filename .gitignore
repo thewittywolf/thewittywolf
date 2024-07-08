@@ -1,2 +1,33 @@
-public/
-node_modules/
+# Hugo default outpwut directory
+/public/
+
+# Hugo generated resources directory
+/resources/_gen/
+/assets/jsconfig.json
+
+# Temporary lock file while building
+/.hugo_build.lock
+
+# Node modules
+/node_modules/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/Editor folders
+.vscode/
+.idea/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional: Ignore package-lock.json if you're not committing it
+# package-lock.json
