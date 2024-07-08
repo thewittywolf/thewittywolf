@@ -59,16 +59,24 @@ math = true
 enableDuckDuckGoSearchBox = true
 numberedSubtitles = true
 
-  [params.commentEngine]
-  code = """
-  <script>
+[params.remark42]
+host = "https://remark42.edwritesmediumform.com"
+site_id = "remark"
+
+[params.commentEngine]
+code = """
+<script>
   var remark_config = {
-    host: '174.138.29.50',
-    site_id: 'remark',
-  }
-  </script>
-  <script>!function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);</script>
-  """
+    host: "https://remark42.edwritesmediumform.com",
+    site_id: "remark",
+    components: ['embed']
+  };
+</script>
+<script>
+  !function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);
+</script>
+<div id="remark42"></div>
+"""
 
   [params.buymeacoffee]
   code = """
