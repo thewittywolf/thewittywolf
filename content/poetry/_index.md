@@ -1,8 +1,8 @@
-+++
-title = 'Poetry'
-description = "My blog posts"
-date = 2024-07-08T08:31:40+08:00
-layout = 'list'
-+++
-
-Some poetry intro
+---
+author: Michael Neuper
+title: Mermaid Diagrams
+date: 2023-11-10
+description: A brief guide to mermaid diagrams
+categories: ["syntax"]
+tags: ["mermaid"]
+---
