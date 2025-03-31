@@ -13,3 +13,5 @@ type = 'reads'
 > Interviewer: You can travel as a tourist, a traveler, and then the third one was as a pilgrim... 
 
 > Rick: A traveler learns about the world. I think a pilgrim learns about themselves. And you learn about yourself by leaving your home and looking at it from a distance. I think by trying to get close to God in your travels.
+
+Bonus: [What should I skip and what can't I miss](https://www.youtube.com/shorts/pKWBhdIQhTk)
