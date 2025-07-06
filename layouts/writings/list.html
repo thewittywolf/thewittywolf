@@ -40,7 +40,7 @@
     <!-- {{ $pages = where .Pages "Type" "posts" }} -->
   <!-- {{ end }} -->
   
-  {{ $pages := where .Data.Pages "Type" "reflections" }}
+  {{ $pages := where .Data.Pages "Type" "writings" }}
   {{ range $pages.GroupByDate "2006-01" }}
   <div class="post-group">
     <h3>{{ dateFormat "January 2006" (printf "%s-01" .Key) }}</h3>
