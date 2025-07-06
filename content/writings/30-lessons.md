@@ -1,10 +1,10 @@
-+++
-title = '30 Lessons on Year 30'
-date = 2024-09-01T19:10:25+08:00
-draft = false
-type = 'reflections'
-+++
 
++++
+title = 'Rick Steves on Three Ways You Can Travel'
+date = 2024-12-17T20:29:56+08:00
+draft = false
+type = 'writings'
++++
 # 30 Life Lessons on Year 30
 
 **Introduction:** Why on Year 30? Because the Reminiscence Bump tendency (an observation that we have better recollection of events that occured in our early adulthood) suggest that we give great significance in this time period a lot. This list of 30 lessons are what I've learnt

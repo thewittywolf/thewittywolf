@@ -70,7 +70,7 @@
                 Comments
             </h3>
             <div id="remark42"></div>
-            <div id="remark42-sidebar"></div>
+            <!-- <div id="remark42-sidebar"></div> -->
             <script>
                 window.remark_config = {
                     host: "{{ .Site.Params.remark42.host }}",
@@ -85,6 +85,30 @@
                 !function(e,n){for(var o=0;o<e.length;o++){var r=n.createElement("script"),c=".js",d=n.head||n.body;"noModule"in r?(r.type="module",c=".mjs"):r.async=!0,r.defer=!0,r.src=remark_config.host+"/web/"+e[o]+c,d.appendChild(r)}}(remark_config.components||["embed"],document);
             </script>
         </div>
+<!-- 
+        <style>
+        /* Blogspot-style comment styling ONLY for index page */
+        .index-comments #remark42 {
+            margin-top: 20px;
+        }
+
+        .index-comments .remark42__root,
+        .index-comments .remark42__comment,
+        .index-comments .remark42__comment-body {
+            font-size: 12px !important;
+            font-family: Arial, sans-serif !important;
+        }
+
+        .index-comments .remark42__author-name {
+            font-size: 11px !important;
+            color: #0066cc !important;
+        }
+
+        .index-comments .remark42__comment-time {
+            font-size: 10px !important;
+            color: #999 !important;
+        }
+        </style> -->
     </div>
 </main>
 {{ end }}
