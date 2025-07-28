@@ -35,3 +35,4 @@ yarn-error.log*
 # Optional: Ignore package-lock.json if you're not committing it
 # package-lock.json
 
+.claude/settings.local.json
